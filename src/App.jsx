@@ -10,7 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={<Portfolio />} />
+        <Route path="/services" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
@@ -25,7 +26,8 @@ function App() {
 }
 const Home = () => <div>Home Page</div>;
 const About = () => <div>About Page</div>;
-const Services = () => <div>Services Page</div>;
+const Portfolio = () => <div>Portfolio Page</div>;
+const Resume = () => <div>Resume Page</div>;
 const Contact = () => <div>Contact Page</div>;
 
 export default App;

@@ -13,7 +13,10 @@ const Navigation = () => {
           <Link to="/about" className="nav-item">About</Link>
         </li>
         <li>
-          <Link to="/services" className="nav-item">Services</Link>
+          <Link to="/services" className="nav-item">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/contact" className="nav-item">Resume</Link>
         </li>
         <li>
           <Link to="/contact" className="nav-item">Contact</Link>
